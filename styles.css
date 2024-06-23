@@ -1,0 +1,39 @@
+body{
+    padding: 50px;
+    background: radial-gradient(circle, #565eeb, #f36489);
+}
+
+.quiz-container{
+    position: relative;
+    left: 50%;
+    translate: -50%;
+    width: 20vw;
+    height: 30vh;
+    border-radius: 5px;
+    background: white;
+    padding: 10px;
+}
+
+.quiz-container h1{
+    text-align: center;
+}
+
+#question{
+    text-align: center;
+}
+
+#answer-list{
+    list-style-type: none !important;
+    text-align: left;
+}
+
+#answer-list li:hover{
+    cursor: pointer;
+    background-color: rgb(245, 245, 245);
+}
+
+#submit, #next{
+    position: relative;
+    left: 50%;
+    translate: -50%;
+}
